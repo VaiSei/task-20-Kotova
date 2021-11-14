@@ -1,0 +1,185 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black;
+}
+
+span {
+  color: #fc6744;
+}
+
+p.section-chapter {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 130px;
+  text-align: center;
+}
+
+header {
+  background-color: #f5f5f5;
+}
+
+header .container nav {
+  padding-top: 80px;
+}
+
+header .container nav a {
+  text-decoration: none;
+  font-size: 38px;
+  color: black;
+  border: 2px solid black;
+  padding: 0px 15px;
+}
+
+header .container nav a.burger {
+  border: none;
+}
+
+header .container p.header-text {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 130px;
+  text-align: center;
+}
+
+header .container p {
+  text-align: center;
+}
+
+header .container .form {
+  text-align: center;
+  -webkit-box-shadow: 0 0 10px 7px #dddddd;
+          box-shadow: 0 0 10px 7px #dddddd;
+  padding: 20px 30px;
+  background-color: white;
+  margin-top: 80px;
+  font-size: 20px;
+}
+
+header .container .form input, header .container .form textarea {
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+header .container .form button {
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fc6744;
+  border: none;
+  border-radius: 20px;
+  width: 80%;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+header .container .form button img {
+  margin-left: 5px;
+}
+
+.sect-1 .container {
+  margin-bottom: 150px;
+}
+
+.sect-1 .container p {
+  text-align: center;
+}
+
+.sect-1 .container p.section-chapter {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.sect-1 .container .blocks {
+  margin-bottom: 170px;
+}
+
+.sect-1 .container .blocks .card .card-title {
+  text-align: center;
+}
+
+.sect-1 .container .blocks .card .card-img-top {
+  margin: auto;
+  margin-top: 50px;
+  height: 50px;
+  width: 50px;
+}
+
+.sect-1 .container .blocks .card a.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-bottom: -35px;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  width: 80%;
+  border: none;
+  -webkit-box-shadow: 5px 2px 7px #ccc8c8;
+          box-shadow: 5px 2px 7px #ccc8c8;
+}
+
+.sect-1 .container .blocks .card a.btn img {
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+}
+
+.sect-2 {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.sect-2 .container {
+  margin-top: 100px;
+}
+
+.sect-2 .container .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 27vw 27vw 27vw;
+      grid-template-columns: 27vw 27vw 27vw;
+  -ms-grid-rows: 27vw 27vw 27vw;
+      grid-template-rows: 27vw 27vw 27vw;
+  gap: 20px;
+}
+
+.sect-2 .container .grid .item-block {
+  background: #ff5c36;
+  border: none;
+}
+
+.sect-3 {
+  text-align: center;
+}
+
+.sect-3 .container .col-1 .sect3-item {
+  width: 100px;
+  height: 100px;
+  background: white;
+  -webkit-box-shadow: 0 0 10px 7px #dddddd;
+          box-shadow: 0 0 10px 7px #dddddd;
+}
+
+.sect-3 .container .col-1 .sect3-item img {
+  width: 90px;
+  height: 90px;
+}
+/*# sourceMappingURL=style.css.map */
