@@ -670,6 +670,7 @@ header {
     }
     #carouselExampleIndicators {
       margin: auto;
+
       .carousel-control-prev {
         background: $primary-color;
         width: 50px;
@@ -781,7 +782,7 @@ header {
 .sect-6 {
   background: #fbfbfb;
   .container {
-    padding: 100px 0px;
+    padding: 100px 20px;
     .logo-row {
       .nav-link {
         text-decoration: none;
