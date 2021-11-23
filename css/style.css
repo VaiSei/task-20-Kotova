@@ -726,6 +726,10 @@ header .container .form button img {
   font-weight: 500;
 }
 
+.sect-5 .container #carouselExampleIndicators {
+  margin: auto;
+}
+
 .sect-5 .container #carouselExampleIndicators .carousel-control-prev {
   background: #fc6744;
   width: 50px;
@@ -733,8 +737,8 @@ header .container .form button img {
   border-radius: 50%;
   margin-top: 15%;
   margin-left: 0%;
-  -webkit-box-shadow: 0 0 10px 7px #dddddd;
-          box-shadow: 0 0 10px 7px #dddddd;
+  -webkit-box-shadow: 0 0 7px 5px #dddddd;
+          box-shadow: 0 0 7px 5px #dddddd;
 }
 
 .sect-5 .container #carouselExampleIndicators .carousel-control-next {
@@ -774,6 +778,7 @@ header .container .form button img {
     padding-bottom: 130px;
   }
   .sect-5 .container #carouselExampleIndicators {
+    margin: auto;
     width: 90%;
   }
   .sect-5 .container #carouselExampleIndicators .carousel-control-prev {

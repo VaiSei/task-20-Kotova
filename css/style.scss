@@ -669,6 +669,7 @@ header {
       }
     }
     #carouselExampleIndicators {
+      margin: auto;
       .carousel-control-prev {
         background: $primary-color;
         width: 50px;
@@ -676,7 +677,7 @@ header {
         border-radius: 50%;
         margin-top: 15%;
         margin-left: 0%;
-        box-shadow: 0 0 10px 7px rgba(221, 221, 221, 1);
+        box-shadow: 0 0 7px 5px rgba(221, 221, 221, 1);
       }
       .carousel-control-next {
         background: $primary-color;
@@ -715,6 +716,7 @@ header {
       text-align: center;
       padding-bottom: 130px;
       #carouselExampleIndicators {
+        margin: auto;
         width: 90%;
         .carousel-control-prev {
           background: $primary-color;
